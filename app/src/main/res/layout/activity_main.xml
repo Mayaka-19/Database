@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/Enter_Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:hint="Enter Name"
+        android:textSize="25sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Enter_Age"
+        android:textSize="25sp"
+        android:hint="Enter Age"
+        android:layout_margin="20sp"/>
+
+    <Button
+        android:id="@+id/PrintNameBtn"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:text="Print Name"
+        android:textSize="30sp"
+        android:textColor="#FFFDFD"
+        app:backgroundTint="#000000" />
+
+    <Button
+        android:id="@+id/AddNameBtn"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:text="Add Name"
+        android:textSize="30sp"
+        android:textColor="#FFFDFD"
+        app:backgroundTint="#000000" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/Name"
+            android:padding="10sp"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:text="Name\n\n"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/Age"
+            android:padding="10sp"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:text="Age\n\n"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
